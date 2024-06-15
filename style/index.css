@@ -1,20 +1,16 @@
 @charset "utf-8";
 
-body,
-html {
-    /* 要撐出高度才能置中，因為body外面有html所以都要放 */
+body, html {
     height: 100%;
 }
 
 body {
-    /* 水平設置 */
     display: flex;
     justify-content: center;
-    /* 置中 */
     align-items: center;
 }
 
-.wrapper {
+.header {
     text-align: center;
 }
 
@@ -24,10 +20,10 @@ body {
 }
 
 .header-title {
-    color: red;
+    color: #fa0f00;
     text-transform: capitalize;
     font-weight: 600;
-    margin-top: 0.5rem;
+    margin-top: .5rem;
 }
 
 .nav {
@@ -40,7 +36,7 @@ body {
 }
 
 .nav-li {
-    width: 33.3333%;
+    width: 33.33333%;
 }
 
 .nav-btn {
@@ -50,10 +46,13 @@ body {
     text-transform: capitalize;
     text-decoration: none;
     color: #fff;
-    transition-duration: 0.6s;
+    transition-duration: .3s;
 }
 
-/* 超連結各的顏色 */
+.nav-btn:hover {
+    opacity: .7;
+}
+
 .nav-btn-acrobat {
     background-color: #333;
 }
@@ -76,8 +75,4 @@ body {
 
 .nav-btn-dreamweaver {
     background-color: #84c922;
-}
-
-.nav-btn:hover {
-    opacity: 0.7;
 }
