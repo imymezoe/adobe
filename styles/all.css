@@ -1,0 +1,116 @@
+@import url(./reset.css);
+
+/* 這邊放每個網頁都一樣的CSS */
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*上方LOGO+右邊導覽列*/
+.head{
+    position: relative;
+}
+
+.head-logo{
+    left: 0;
+    top: 0;
+    padding-left: 20px;
+}
+
+.head img{
+    width: 300px;
+}
+
+.head-item img{
+    width:35px;
+    position: absolute; 
+}
+
+.head-pic01{
+    right: 120px;
+    top: 14px;
+}
+
+.head-pic02{
+    right:78px;
+    top: 14px;
+}
+
+/* 導覽列專區 */
+.navi{}
+
+.navi-ls{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.navi-ls li{
+    padding: 0 auto ;
+}
+
+.navi-ls li a{
+    background-color: #fff;
+    display: block;
+    padding: 12px 14px; 
+    color: black;
+    text-decoration: none;
+}
+
+.navi-ls li a:hover{
+    color:saddlebrown;
+}
+
+/* 優惠消息列或標語行 */
+.line{
+    max-width: 100%;
+    font-size: 1rem;
+    color: #fff;
+    background-color: forestgreen ;
+    padding:5px 0;
+    text-align: center;
+}
+
+/* 最下方關注我們 */
+.footer{
+    border-top: solid 1px #777;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer img{
+    max-width: 40px;
+    margin: 5px;
+}
+
+/* ---RWD--- */
+@media screen and (max-width: 1200px) {
+    body {
+        background-color: #F0F0F0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: beige;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: burlywood;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    body {
+        background-color: #F0F0F0;
+    }
+}
+
+
+
+
+

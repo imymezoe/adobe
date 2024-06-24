@@ -1,0 +1,181 @@
+/* Top LOGO改為置中跟調整大小 */
+.head-logo-center {
+    text-align: center;
+    justify-content: center;
+}
+
+.head-logo-center .head-logo img {
+    width: 160px;
+    border-radius: 50%;
+}
+
+/* Banner */
+.banner {
+    max-width: 100%;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* 輪播圖片 */
+.banner img {
+    max-width: 100%;
+    height: auto;
+    /* 輪播定位 */
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    animation: silder 15s linear infinite;
+    -webkit-animation: silder 12s linear infinite;/* Safari 与 Chrome */
+}
+
+/*動畫影格*/
+@-webkit-keyframes silder {
+    20% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+
+    30% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+
+    50% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+}
+
+@keyframes silder {
+    20% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+
+    30% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+
+    50% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+}
+
+/*每個圖片各延遲秒數*/
+.banner>img:nth-child(3) {
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+}
+
+.banner>img:nth-child(2) {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+}
+
+.banner>img:nth-child(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+/*滑入時停止播放*/
+/* .banner:hover>img {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+} */
+
+
+/* 主頁商品推薦 */
+.contain a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.contain a:hover {
+    color: saddlebrown;
+}
+
+.contain ul {
+    width: 960px;
+    padding: 30px 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.contain li {
+    width: 300px;
+    padding: 10px;
+    float: left;
+
+    position: relative;
+}
+
+.contain li h5 {
+    font-size: 1em;
+    padding-top: 10px;
+}
+
+.contain img {
+    width: 100%;
+}
+
+/* tag 定位 */
+
+.contain h6 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.contain-tag {
+    background-color: #FFD78C;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20%;
+    padding: 10px;
+}
+
+/* shop now 按鈕 */
+.contain .contain-bottom {
+    display: block;
+    color: white;
+    background-color: forestgreen;
+    width: 125px;
+    line-height: 45px;
+    margin: 0 auto 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contain .contain-bottom:hover {
+    color: black;
+}
+
+/* 看版圖片 下方banner */
+.down-banner img {
+    width: 100%;
+    height: 480px;
+}
+
+/* 下方Slogang Pic */
+.slogan {
+    text-align: center;
+}
+
+.slogan img {
+    width: 50%;
+    margin: 20px;
+}

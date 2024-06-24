@@ -1,0 +1,76 @@
+.wrapper {
+    width: 100%;
+}
+
+/* 左邊List */
+.wrapper-left {
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+
+.wrapper-left h5 {
+    font-weight: bold;
+    padding-top: 20px;
+    text-indent: -42px;
+}
+
+.wrapper-left a{
+    color: black;
+}
+
+.left-ls {
+    overflow: hidden;
+    padding-top: 16px;
+}
+
+.left-ls li {
+    text-align: center;
+}
+
+.left-ls li a {
+    display: block;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.left-ls a:hover {
+    color: deeppink;
+}
+
+/* 右邊產品內容 */
+.wrapper-product{
+    float: right;
+    width: 85%;
+    /* height: 100%; */
+    text-align: center;
+}
+
+.wrapper-product ul{
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    padding-left: 15px;
+}
+
+.right-content li{
+    padding: 16px;
+}
+
+.right-content img {
+    width: 300px;
+}
+
+.right-content h5{
+    padding: 5px 0;
+}
+
+.right-content p{
+    color: darkorange;
+}
+
+/* 最下方 */
+.footer {
+    clear: both;
+}

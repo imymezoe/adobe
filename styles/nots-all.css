@@ -1,0 +1,82 @@
+.wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+/* 左邊 */
+.wrapper-navi{
+    float: left;
+    width: 20%;
+    background-color: darksalmon;
+}
+
+.wrapper h5{
+    padding-top: 20px;
+    text-indent: 30px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.wrapper a{
+    color: black;
+}
+
+.wrapper-navi {
+    background-color: #FFFFF0;
+    width: 20%;
+    height: 1534px;
+    float: left;
+}
+
+.wrapper-ls {
+    overflow: hidden;
+    padding-top: 14px;
+}
+
+.wrapper-ls li {
+    margin: 0 58px;
+    text-align: center;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.wrapper-ls a {
+    display: block;
+    line-height: 32px;
+    text-decoration: none;
+    font-size: 1.1em;
+    background-image: url('../Images/css_sprites_24_bk.png');
+    background-repeat: no-repeat;
+    background-size: 32px;
+}
+
+.wrapper-ls a:hover {
+    color: deeppink;
+}
+
+/* 玩位置圖 X Y */
+
+.wrapper .btn02 {
+    background-position: 0 -32px;
+}
+
+.wrapper .btn03 {
+    background-position: 0 -64px;
+}
+
+/* 右邊上方Note Pic + 下方Note表 Pic */
+.wrapper img {
+    width: 80%;
+}
+.wrapper .fragrace-note{
+    height: 150px;
+}
+
+/* 右邊圖片 */
+.wrapper img{
+    height: 1344px;
+    float: right;
+}
+
+/* 最下方 */
+.footer {
+    clear: both;
+}

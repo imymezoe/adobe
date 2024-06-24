@@ -1,0 +1,66 @@
+.wrapper {
+    width: 100%;
+}
+
+/* 左邊List */
+.wrapper-left {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.wrapper-left ul {
+    list-style: circle;
+}
+
+.left-ls {
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.left-ls li {
+    margin: 0 75px;
+    text-align: center;
+}
+
+.left-ls a {
+    color: black;
+    display: block;
+    line-height: 36px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.left-ls a:hover {
+    color: deeppink;
+}
+
+/* 右邊內容 */
+.wrapper-right {
+    background-color: #FFFFF0;
+    background-repeat: round;
+    float: right;
+    width: 80%;
+    line-height: 1.5em;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.wrapper-right h4 {
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 8px;
+}
+
+h5 {
+    color: forestgreen;
+}
+
+h6 {
+    color: deeppink;
+}
+
+/* 最下方 */
+.footer {
+    clear: both;
+}
